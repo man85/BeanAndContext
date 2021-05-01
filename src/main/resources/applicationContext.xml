@@ -7,7 +7,7 @@
 
     </bean>
     <bean id="musicPlayer"
-          class="org.example.MusicPlayer">
-        <constructor-arg ref="musicBean"/>
+        class="org.example.MusicPlayer">
+        <property name="music" ref="musicBean"/>
     </bean>
 </beans>
